@@ -30,6 +30,6 @@ playgamestats<-function(x){
       if (pos[i]==98){pos[i]<-78}
     }
   }
-  info<-list(turns=turns,gridvisits=grid)
+  info<-list(turns=turns,gridvisits=grid,positions=pos)
   return(info)
 }
